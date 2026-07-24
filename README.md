@@ -18,18 +18,13 @@ robots.txt      クロール許可
 
 ---
 
-## 公開前に必ずやること（3つ）
+## 公開前に必ずやること
 
-### 1. ドメインを入れる
+### 1. ドメイン ✅ 設定済み
 
-全ファイルの `YOUR-DOMAIN.example` を実際のドメインに一括置換してください。
-`.example` は使えないTLDなので、置換漏れがあれば必ず壊れて気づけるようにしてあります。
-
-```bash
-grep -rl 'YOUR-DOMAIN.example' . | xargs sed -i '' 's|YOUR-DOMAIN\.example|wolf-kagoshima.com|g'
-```
-
-置換されるのは canonical / og:url / JSON-LD の url / sitemap.xml です。
+ドメインは **wolf-tenmonkan.com** に確定し、全ファイルへ反映済みです
+（canonical / og:url / JSON-LD の url / sitemap.xml / CNAME）。
+公開方式・DNS設定の手順は [DEPLOY.md](DEPLOY.md) にまとめています。
 
 ### 2. 「要確認」を埋める
 
@@ -80,7 +75,7 @@ grep -rl 'YOUR-DOMAIN.example' . | xargs sed -i '' 's|YOUR-DOMAIN\.example|wolf-
 `img/ogp.jpg`（1200×630px）を置いて、各ページの `<head>` に以下を追加してください。
 
 ```html
-<meta property="og:image" content="https://YOUR-DOMAIN.example/img/ogp.jpg">
+<meta property="og:image" content="https://wolf-tenmonkan.com/img/ogp.jpg">
 ```
 
 店内写真が用意できたら、トップの狼マークの位置と、アクセスページのビル外観に入れると効果的です。

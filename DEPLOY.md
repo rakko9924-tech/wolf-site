@@ -12,15 +12,9 @@ rakkoアプリと同じ構成で公開します。
 
 ---
 
-## ステップ0：ドメイン名を決める
+## ステップ0：ドメイン名 ✅ 確定済み
 
-`YOUR-DOMAIN.example` を実際のドメインに置き換えます。候補：
-
-- `wolf-tenmonkan.com`（推奨・エリア名入り）
-- `bodoge-wolf.com`
-- `wolf-kagoshima.com`
-
-決めたら、サイト内の仮ドメインを一括置換します（この作業はこちらでやります）。
+ドメインは **wolf-tenmonkan.com** に確定。サイト内の全URLと `CNAME` に反映済みです。
 
 ---
 
