@@ -27,8 +27,13 @@
   </url>
   <url>
     <loc>https://wolf-tenmonkan.com/gamelist.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf-tenmonkan.com/game-dominion.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://wolf-tenmonkan.com/game-catan.html</loc>
